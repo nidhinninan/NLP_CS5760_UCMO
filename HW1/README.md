@@ -8,6 +8,10 @@
 
 **Date:** Sept 15, 2025
 
+**Github Link:** [HW1 Github Link](https://github.com/nidhinninan/NLP_CS5760_UCMO/tree/main/HW1)
+
+**Course Public Repo Link:** [CS 5760 (Nidhin Ninan) Repo Link](https://github.com/nidhinninan/NLP_CS5760_UCMO)
+
 ---
 
 ## Project Overview
