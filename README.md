@@ -6,6 +6,8 @@
 
 **Unversity:** University of Central Missouri
 
+**Course Public Repo Link:** [CS 5760 (Nidhin Ninan) Repo Link](https://github.com/nidhinninan/NLP_CS5760_UCMO)
+
 This repository contains coursework and assignments for the Natural Language Processing course, focusing on text processing, tokenization, and multilingual NLP techniques.
 
 ## 🛠️ Dependencies
