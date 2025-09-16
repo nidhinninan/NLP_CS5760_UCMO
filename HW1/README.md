@@ -73,8 +73,8 @@ This task involved implementing and comparing three different tokenization metho
 3.  **Tool-based Tokenizer:** Utilized the `AutoTokenizer` from the `transformers` library with the `google/muril-base-cased` model, which performs WordPiece subword tokenization.
 
 
-**Key Reflections:**
-
+#### Key Reflections:
+---------------------
 **_Observation based on the above tokenisation of sentences in Malayalam:_**
 
 1.  **WordPiece vs. Rule-based Tokenization:** The google/muril-base-cased model using WordPiece tokenization handles the Malayalam paragraph much more effectively than naive or manual approaches, breaking complex Malayalam words into meaningful subword units marked with ## continuation symbols that preserve morphological information.
@@ -109,8 +109,8 @@ A `BPELearner` class was created to handle the BPE process. The core logic invol
 A separate function, `apply_bpe_segmentation`, was implemented to tokenize new words. It takes a word, splits it into characters, and then iteratively applies the learned merges in the exact order they were created to produce the final subword segmentation.
 
 
-**Key Reflections:**
-
+#### Key Reflections:
+---------------------
 **_Why use Subword Tokenisation_**
 
 Subword tokenization effectively solves the out-of-vocabulary (OOV) problem by breaking down unknown words into a sequence of known, smaller pieces. For instance, even though the invented word "newestest" was not in the original corpus, the BPE model could still represent it by segmenting it into subwords like `['new', 'e', 's', 't', 'e', 's', 't', '_']`.
@@ -158,8 +158,8 @@ An `EditDistance` class was implemented with the following features:
     *   **Model A:** Substitution = 1, Insertion = 1, Deletion = 1
     *   **Model B:** Substitution = 2, Insertion = 1, Deletion = 1
 
-**Key Reflections:**
-
+#### Key Reflections:
+---------------------
 **_Reflection on Edit Distance Model Comparison_**
 
 *   The two models produced different distances
