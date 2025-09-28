@@ -29,7 +29,7 @@ This repository contains coursework and assignments for the Natural Language Pro
 - **tokenizers:** 0.22.0
 - **sentencepiece:** 0.2.1
 - **spacy:** 3.8.7
-- **nltk/inltk:** For multilingual processing
+- **nltk/inltk:** 3.9.1
 
 ### NVIDIA CUDA Support
 - **nvidia-cuda-runtime-cu12:** 12.8.90
