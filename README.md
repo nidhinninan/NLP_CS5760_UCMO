@@ -8,7 +8,7 @@
 
 **Course Public Repo Link:** [CS 5760 (Nidhin Ninan) Repo Link](https://github.com/nidhinninan/NLP_CS5760_UCMO)
 
-This repository contains coursework and assignments for the Natural Language Processing course, focusing on text processing, tokenization, and multilingual NLP techniques.
+This repository contains coursework and assignments for the Natural Language Processing course, focusing on text processing, tokenization, Confusion Matrix, N-Gram Language Modelling and multilingual NLP techniques.
 
 ## 🛠️ Dependencies
 
@@ -59,7 +59,7 @@ This repository contains coursework and assignments for the Natural Language Pro
 | Assignment | Topic | Status |
 |------------|-------|---------|
 | **[HW1](./HW1/)** | Tokenization & Multilingual NLP | ✅ Complete |
-| **HW2** | [Coming Soon] | ⏳ Upcoming |
+| **[HW2](./HW2/)** | Confusion Matrix and N-Gram Language Modelling | ✅ Complete |
 
 ---
 
