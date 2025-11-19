@@ -60,6 +60,7 @@ This repository contains coursework and assignments for the Natural Language Pro
 |------------|-------|---------|
 | **[HW1](./HW1/)** | Tokenization & Multilingual NLP | ✅ Complete |
 | **[HW2](./HW2/)** | Confusion Matrix and N-Gram Language Modelling | ✅ Complete |
+| **[HW4](./HW4/)** | RNN, Transformers and Attention | ✅ Complete |
 
 ---
 
